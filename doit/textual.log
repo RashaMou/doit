@@ -1,0 +1,12 @@
+---
+driver=<class 'textual.drivers.linux_driver.LinuxDriver'>
+Load() >>> App(title='Textual')
+Mount() >>> App(title='Textual Application')
+Mount() >>> DockView(name='DockView#1')
+view.forwarded Key(key=':')
+Key(key=':') >>> App(title='Textual Application')
+view.forwarded Key(key='q')
+Key(key='q') >>> App(title='Textual Application')
+ACTION App(title='Textual Application') quit
+CLOSED App(title='Textual Application')
+PROCESS END
